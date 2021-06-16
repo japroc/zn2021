@@ -1,0 +1,5 @@
+- import: codeql-suites/javascript-yandex.qls
+- import: codeql-suites/javascript-security-extended.qls
+- queries: experimental
+- include:
+    tags contain: security
