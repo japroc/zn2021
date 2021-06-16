@@ -11,3 +11,8 @@ This is and example how to extend standard library with custom queries and libra
 It duplicates the structure of original repository https://github.com/github/codeql.  
 The main idea of extending standard library is to create custom library and import it in `Customizations.qll`.  
 To extend query suite with custom queries, add new qls file to `codeql-suites` folder.
+
+### python-taint-fails-on-class-attr
+This example shows that TypeTracking fails on tracking through class self's attribute assignments on sql.  
+To workaround this drawback replace standard `codeql/python/ql/src/semmle/python/frameworks/PEP249.qll` implementation.  
+Also copy custom predicate to `codeql/python/ql/src/semmle/python/SelfAttribute.qll` file.
