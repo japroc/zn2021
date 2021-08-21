@@ -1,5 +1,6 @@
 # zn2021
-CodeQL snippets
+CodeQL snippets for ZeroNights 2021 "Company wide SAST" presentation.
+Link to program: https://zeronights.ru/en/reports-en/company-wide-sast/
 
 ### javascript-taint-fails-on-middlware
 Example of javascript app when taint tracking fails on data flow through request context.  
