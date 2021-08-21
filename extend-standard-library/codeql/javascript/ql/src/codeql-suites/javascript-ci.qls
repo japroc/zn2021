@@ -1,0 +1,6 @@
+- import: codeql-suites/javascript-yandex.qls
+- import: codeql-suites/javascript-security-extended.qls
+- exclude:
+    id: js/weak-cryptographic-algorithm
+- exclude:
+    id: js/insecure-randomness
